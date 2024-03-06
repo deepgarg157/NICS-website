@@ -98,3 +98,77 @@ export const blog = [
         cover: "../images/blog/b6.webp",
     },
 ]
+
+export const team = [
+    {
+        id: 1,
+        cover: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Adrian Molises",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 2,
+        cover: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Arthur MaGregor",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 3,
+        cover: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Anna Hanzen",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 4,
+        cover: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Brian Wooden",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 5,
+        cover: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Adrian Molises",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 6,
+        cover: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Arthur MaGregor",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 7,
+        cover: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Anna Hanzen",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        id: 8,
+        cover: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Ph.D Brian Wooden",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+]
+
+export const price = [
+    {
+        name: "BASIC PLAN",
+        price: "49K",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "BEGINNER PLAN",
+        price: "79K",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "PREMIUM PLAN",
+        price: "109k",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "ULTIMATE PLAN",
+        price: "149K",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+]

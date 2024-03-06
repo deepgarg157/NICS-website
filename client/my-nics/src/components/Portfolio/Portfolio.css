@@ -1,0 +1,17 @@
+.portfilio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfilio img{
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.portfilio img:hover{
+    cursor: pointer;
+    width: 420px;
+}

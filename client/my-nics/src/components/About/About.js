@@ -43,7 +43,6 @@ const About = () => {
                 </div>
             </section>
             <Footer />
-            {/* <Awrapper /> */}
         </>
     )
 }
