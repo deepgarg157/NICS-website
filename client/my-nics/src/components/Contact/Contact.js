@@ -1,13 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import '../Contact/Contact.css'
 import Footer from '../Footer/Footer'
+import { map } from '../../utility/constants'
 
 const Contact = () => {
 
     const location = useLocation()
 
-    const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.947429625468!2d77.32367087585187!3d28.571341286856264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5588f446bd1%3A0x330dbc871ad93232!2sNICS%20TECHNOLOGY!5e0!3m2!1sen!2sin!4v1709707604934!5m2!1sen!2sin'
+    const [userData, setUserData] = useState(
+        {
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+        }
+    )
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setUserData({ ...userData, [name]: value })
+    }
+
+    const handleSendMessage = (e) => {
+        e.preventDefault()
+        const { name, email, subject, message } = userData
+        if (name !== '' && email !== "" && subject !== "" && message !== '') {
+            setUserData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            })
+        }
+        else {
+            alert('fill the required data')
+        }
+
+    }
 
     return (
         <>
@@ -44,14 +74,13 @@ const Contact = () => {
 
                         <form action=''>
                             <div className='flexSB'>
-                                <input type='text' placeholder='Name' />
-                                <input type='email' placeholder='Email' />
+                                <input type='text' placeholder='Name' name='name' value={userData.name} onChange={handleChange} />
+                                <input type='email' placeholder='Email' name='email' value={userData.email} onChange={handleChange} />
                             </div>
-                            <input type='text' placeholder='Subject' />
-                            <textarea cols='30' rows='10'>
-                                Create a message here...
+                            <input type='text' placeholder='Subject' name='subject' value={userData.subject} onChange={handleChange} />
+                            <textarea cols='30' rows='10' placeholder='Create a message here...' value={userData.message} name='message' onChange={handleChange}>
                             </textarea>
-                            <button className='primary-btn'>SEND MESSAGE</button>
+                            <button className='primary-btn' onClick={handleSendMessage}>SEND MESSAGE</button>
                         </form>
                     </div>
                 </div>

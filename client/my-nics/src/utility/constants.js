@@ -172,3 +172,5 @@ export const price = [
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
 ]
+
+export const map = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.947429625468!2d77.32367087585187!3d28.571341286856264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5588f446bd1%3A0x330dbc871ad93232!2sNICS%20TECHNOLOGY!5e0!3m2!1sen!2sin!4v1709707604934!5m2!1sen!2sin'
