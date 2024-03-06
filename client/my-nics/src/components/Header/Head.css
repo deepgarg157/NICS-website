@@ -1,0 +1,47 @@
+/*--------head------------*/
+.head {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+
+.flexSB {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.logo span{
+    font-weight: 900;
+    color: #1eb2a6;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1eb2a6;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.head .icon {
+    margin-left: 10px;
+}
+
+/*--------head------------*/
