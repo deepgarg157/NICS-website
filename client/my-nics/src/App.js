@@ -10,7 +10,6 @@ import axios from 'axios'
 
 // server URL
 axios.defaults.baseURL = 'http://localhost:7000/'
-// axios.defaults.baseURL = 'https://relieved-hare-veil.cyclic.app/'
 
 function App() {
   return (
