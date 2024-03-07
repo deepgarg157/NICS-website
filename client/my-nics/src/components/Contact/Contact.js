@@ -26,18 +26,23 @@ const Contact = () => {
     const handleSendMessage = async (e) => {
         e.preventDefault()
         const { name, email, subject, message } = userData
-        try {
-            const res = await axios.post('/api/v1/user/register', { name, email, subject, message })
-            console.log(res)
-        } catch (error) {
-            console.log(error.message)
+        if(name !== '' && email !== '' && subject !== "" && message !== ''){
+            try {
+                const res = await axios.post('/api/v1/user/register', { name, email, subject, message })
+                console.log(res)
+            } catch (error) {
+                console.log(error.message)
+            }
+            setUserData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            })
         }
-        setUserData({
-            name: '',
-            email: '',
-            subject: '',
-            message: ''
-        })
+        else{
+            alert('All fields is required')
+        }
     }
 
 return (
