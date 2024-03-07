@@ -6,6 +6,11 @@ import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact'
 import Pricing from './components/Pricing/Pricing';
 import Portfolio from './components/Portfolio/Portfolio';
+import axios from 'axios'
+
+// server URL
+axios.defaults.baseURL = 'http://localhost:7000/'
+// axios.defaults.baseURL = 'https://relieved-hare-veil.cyclic.app/'
 
 function App() {
   return (
